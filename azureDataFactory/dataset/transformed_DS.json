@@ -1,0 +1,28 @@
+{
+	"name": "transformed_DS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adpromoadls_ls",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"transformedFile": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "transformedfiles"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "YouTubeTrafficADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "167e7f32-c005-4bbe-8f3f-00cbb895cea4",
+		"tenantId": "ec15726e-765c-4f10-9e63-9e1964529582"
+	}
+}

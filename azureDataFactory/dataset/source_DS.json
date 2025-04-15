@@ -1,0 +1,21 @@
+{
+	"name": "source_DS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adpromoadls_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Worksheet",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "sourcefiles"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
